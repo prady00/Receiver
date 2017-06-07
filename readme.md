@@ -1,3 +1,15 @@
+## Steps to install 
+
+1. Clone this repo
+2. Run "composer install" after going in Receiver folder
+3. Copy contents of .env.example to .env file
+4. Create a MySQL DB - receiver
+5. Run "php artisan migrate"
+6. Run "php artisan serve --port=8001
+
+Receiver app is up and running
+
+
 # Lumen PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
@@ -19,3 +31,5 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Lumen framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+
